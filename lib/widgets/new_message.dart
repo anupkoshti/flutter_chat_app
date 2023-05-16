@@ -36,6 +36,7 @@ class _NewMessageState extends State<NewMessage> {
     //send to firebase
 
     //reading from firebase auth
+    
     final user = FirebaseAuth.instance.currentUser!;
 
     //reading from firebase firestore
